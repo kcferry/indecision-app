@@ -1,0 +1,36 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kyle Ferry",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-cli": "6.24.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "^3.11.2",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "validator": "^13.1.17",
+    "webpack": "^5.5.1",
+    "webpack-dev-server": "^3.11.0",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
+  }
+}
